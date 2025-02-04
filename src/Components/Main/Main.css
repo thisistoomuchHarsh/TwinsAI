@@ -197,4 +197,16 @@
   .searchbox div {
     gap: 5px;
   }
+
+  .main .nav{
+    padding: 15px;
+  }
+
+  .main .cards{
+    display: none;
+  }
+
+  .main .greet {
+    margin: 200px auto;
+  }
 }
