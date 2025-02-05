@@ -209,4 +209,8 @@
   .main .greet{
     margin: 60px 0px;
   }
+
+  .main-bottom {
+    bottom: 20;
+  }
 }
