@@ -1,7 +1,6 @@
 .main {
   flex: 1;
   min-height: 100vh;
-  padding-bottom: 15vh;
   position: relative;
 }
 
@@ -34,6 +33,7 @@
 
 .main .greet span {
   background: -webkit-linear-gradient(16deg, #4b90ff, #ff5546);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -181,13 +181,8 @@
 }
 
 @media (max-width: 600px) {
-  .main-bottom input {
-    flex: none;
-    width: 150px;
-  }
-
   .main-bottom img {
-    width: 20px;
+    width: 25px;
   }
 
   .searchbox {
@@ -198,19 +193,14 @@
     gap: 5px;
   }
 
-  .main .nav{
+  .main .nav {
     padding: 15px;
   }
 
-  .main .cards{
+  .main .cards {
     display: none;
   }
-
-  .main .greet{
+  .main .greet {
     margin: 60px 0px;
-  }
-
-  .main-bottom {
-    bottom: 10px;
   }
 }

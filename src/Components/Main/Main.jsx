@@ -78,6 +78,7 @@ const Main = () => {
             </div>
           </div>
         )}
+      </div>
 
         <div className="main-bottom">
           <div className="searchbox">
@@ -106,7 +107,6 @@ const Main = () => {
             double-check its responses. Your privacy and TwinsAI Apps
           </p>
         </div>
-      </div>
     </div>
   );
 };
