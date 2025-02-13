@@ -1,6 +1,6 @@
 .main {
   flex: 1;
-  min-height: 100vh;
+  height: 100vh;
   position: relative;
 }
 
@@ -207,7 +207,7 @@
     display: none;
   }
 
-  .bottom-info {
-    display: none;
+  .main {
+    height: 100vh;
   }
 }
